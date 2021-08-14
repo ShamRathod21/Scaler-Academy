@@ -1,4 +1,11 @@
-  
+class temp{
+    public : 
+    int temp;
+    void print()   
+    {
+        cout<<temp;
+    }
+};
 vector<vector<string>> res;
 
 bool check(vector<string> &temp, int row, int col, int A)
